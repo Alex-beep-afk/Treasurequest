@@ -1,0 +1,37 @@
+body {
+    background-color: #AAAAAA;
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(20, 40px);
+    grid-template-rows: repeat(20, 40px);
+    border: 1px solid black;
+}
+
+.cell {
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+}
+.coffre{
+    background-image: url("assets/treasure.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.rocher{
+    background-image: url("assets/rock.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nain{
+    background-image: url("assets/player.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
