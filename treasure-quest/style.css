@@ -35,6 +35,12 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+.nain2{
+    background-image: url("assets/player.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .success{
     background-color: green;
     position: absolute;
